@@ -1,5 +1,5 @@
 // キャッシュしたいファイルの一覧を指定 — (*1)
-const cacheFiles = ['index.html', 'icon'];
+const cacheFiles = ['index.html', 'icon.jpg'];
 const cacheName = 'v1';
 // インストール時に実行されるイベント — (*2)
 self.addEventListener('install', event => {
